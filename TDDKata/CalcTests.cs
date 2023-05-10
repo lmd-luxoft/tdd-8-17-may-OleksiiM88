@@ -43,7 +43,7 @@ namespace TDDKata
 		{
 			//Arrange
 			string parameter = "5";
-			int expected = 5;
+			int expected = -1;
 
 			//Act
 			decimal actual = _calc.Add(parameter);

@@ -6,21 +6,12 @@
 		{
 			if(String.IsNullOrEmpty(digits))
 				return 0;
-			
-			if (digits.Length == 1)
-			{
-				if (int.TryParse(digits, out int digit))
-				{
-					return digit;
-				}
-				else
-				{
-					return -1;
-				}
-
-			}
 
 			string[] values = digits.Split(',');
+
+			if (values.Length == 1)
+				return -1;
+
 			int result = 0;
 			foreach(string value in values)
 			{
