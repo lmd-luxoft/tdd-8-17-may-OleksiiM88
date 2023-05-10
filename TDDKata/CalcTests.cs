@@ -53,7 +53,7 @@ namespace TDDKata
 		}
 
 		[Fact]
-		public void PassOnlyOneParameterButNotDigit()
+		public void PassOnlyOneParameterButNotDigitShouldThrowException()
 		{
 			//Arrange
 			string parameter = "T";
@@ -105,7 +105,7 @@ namespace TDDKata
 		}
 
 		[Fact]
-		public void PassCharAndDigitAsParameters()
+		public void PassCharAndDigitAsParametersShouldThrowException()
 		{
 			//Arrange
 			string parameters = "#,2.6";
@@ -129,7 +129,7 @@ namespace TDDKata
 		}
 
 		[Fact]
-		public void PassBigLongParametersAsDigits()
+		public void PassBigLongParametersAsDigitsShouldThrowException()
 		{
 			//Arrange
 			string parameters = "23435345546546456546890797897897,123132131344553423423423478978976767858";
@@ -142,8 +142,8 @@ namespace TDDKata
 		public void PassDecimalsParametersAsDigits()
 		{
 			//Arrange
-			string parameters = "45.4m,15.8m";
-			decimal expected = -47;
+			string parameters = "5.4,3.8";
+			decimal expected = 9.2m;
 
 			//Act
 			decimal actual = _calc.Add(parameters);
