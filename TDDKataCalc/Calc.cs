@@ -32,7 +32,7 @@
 			}
 			else
 			{
-				throw new InvalidOperationException("Value can't be parsed");
+				return -1;
 			}
 		}
 	}
