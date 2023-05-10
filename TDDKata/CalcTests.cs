@@ -42,8 +42,8 @@ namespace TDDKata
 		public void PassOnlyOneParameter()
 		{
 			//Arrange
-			string parameter = "1";
-			int expected = 1;
+			string parameter = "5";
+			int expected = 5;
 
 			//Act
 			decimal actual = _calc.Add(parameter);
@@ -83,14 +83,14 @@ namespace TDDKata
 		[Fact]
 		public void PassMoreThenTwoParametersAsDigits()
 		{
-			// ------  DO WE EXPECT MORE THAN 2 PARAMETERS????????????????????
+			// ------  DO WE EXPECT MORE THAN 2 PARAMETERS? - Done!
 
 			//Arrange
 			string parameters = "1,24,15";
 			int expected = 40;
 
 			//Act
-			decimal actual = _calc.Add(parameters);
+			int actual = _calc.Add(parameters);
 
 			//Assert
 			Assert.Equal(expected, actual);
@@ -99,11 +99,11 @@ namespace TDDKata
 		[Fact]
 		public void PassFloatsParametersAsDigits()
 		{
-			// ------  DO WE EXPECT FLOATS AS PARAMETERS?
+			// ------  DO WE EXPECT FLOATS AS PARAMETERS? - Done!
 
 			//Arrange
 			string parameters = "1.5,2.6";
-			decimal expected = 4.1m;
+			decimal expected = -1;
 
 			//Act
 			decimal actual = _calc.Add(parameters);
@@ -113,13 +113,12 @@ namespace TDDKata
 		}
 
 		[Fact]
-		public void PassCharAndDigitAsParametersShouldThrowException()
+		public void PassCharAndDigitAsParametersShouldMinusOne()
 		{
 			// ------  WHAT SHOULD BE AS OUTPUT (Exception?)?
 
 			//Arrange
 			string parameters = "#,2.6";
-
 			int expected = -1;
 
 			//Act
@@ -144,15 +143,20 @@ namespace TDDKata
 		}
 
 		[Fact]
-		public void PassBigLongParametersAsDigitsShouldThrowException()
+		public void PassBigLongParametersAsDigitsShouldMinusOne()
 		{
 			// ------  DO WE EXPECT PARAMETERS THAT ARE OUT OF MEMORY SCOPE?
 
 			//Arrange
 			string parameters = "23435345546546456546890797897897,123132131344553423423423478978976767858";
+			decimal expected = -1;
 
 			//Act & Assert
-			Assert.Throws<InvalidOperationException>(() => _calc.Add(parameters));
+			//Act
+			decimal actual = _calc.Add(parameters);
+
+			//Assert
+			Assert.Equal(expected, actual);
 		}
 
 		[Fact]
@@ -160,7 +164,7 @@ namespace TDDKata
 		{
 			//Arrange
 			string parameters = "5.4,3.8";
-			decimal expected = 9.2m;
+			decimal expected = -1;
 
 			//Act
 			decimal actual = _calc.Add(parameters);

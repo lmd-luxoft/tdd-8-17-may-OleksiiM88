@@ -2,38 +2,38 @@
 {
 	public class Calc
 	{
-		public decimal Add(string digits)
+		public int Add(string digits)
 		{
 			if(String.IsNullOrEmpty(digits))
 				return 0;
 			
 			if (digits.Length == 1)
 			{
-				return ValueParser(digits);
-				
+				if (int.TryParse(digits, out int digit))
+				{
+					return digit;
+				}
+				else
+				{
+					return -1;
+				}
+
 			}
 
 			string[] values = digits.Split(',');
-			decimal result = 0;
+			int result = 0;
 			foreach(string value in values)
 			{
-				result += ValueParser(value);
+				if (int.TryParse(value, out int digit))
+				{
+					result += digit;
+				}
+				else
+				{
+					return - 1;
+				}
 			}
-			
 			return result;
-			
-		}
-
-		private decimal ValueParser(string value)
-		{
-			if (decimal.TryParse(value, out decimal digit))
-			{
-				return digit;
-			}
-			else
-			{
-				return -1;
-			}
 		}
 	}
 }
