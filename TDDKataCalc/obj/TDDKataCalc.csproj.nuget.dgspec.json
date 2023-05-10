@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\OMaievskyi\\source\\repos\\TDDKata\\TDDKataCalc\\TDDKataCalc.csproj": {}
+    "C:\\Users\\OMaievskyi\\Source\\Repos\\tdd-8-17-may-OleksiiM88\\TDDKataCalc\\TDDKataCalc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\OMaievskyi\\source\\repos\\TDDKata\\TDDKataCalc\\TDDKataCalc.csproj": {
+    "C:\\Users\\OMaievskyi\\Source\\Repos\\tdd-8-17-may-OleksiiM88\\TDDKataCalc\\TDDKataCalc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\OMaievskyi\\source\\repos\\TDDKata\\TDDKataCalc\\TDDKataCalc.csproj",
+        "projectUniqueName": "C:\\Users\\OMaievskyi\\Source\\Repos\\tdd-8-17-may-OleksiiM88\\TDDKataCalc\\TDDKataCalc.csproj",
         "projectName": "TDDKataCalc",
-        "projectPath": "C:\\Users\\OMaievskyi\\source\\repos\\TDDKata\\TDDKataCalc\\TDDKataCalc.csproj",
+        "projectPath": "C:\\Users\\OMaievskyi\\Source\\Repos\\tdd-8-17-may-OleksiiM88\\TDDKataCalc\\TDDKataCalc.csproj",
         "packagesPath": "C:\\Users\\OMaievskyi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\OMaievskyi\\source\\repos\\TDDKata\\TDDKataCalc\\obj\\",
+        "outputPath": "C:\\Users\\OMaievskyi\\Source\\Repos\\tdd-8-17-may-OleksiiM88\\TDDKataCalc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\OMaievskyi\\AppData\\Roaming\\NuGet\\NuGet.Config",

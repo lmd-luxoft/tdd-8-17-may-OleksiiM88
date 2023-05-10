@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p9hzizQtjI5JfXlPyfK1Oy06+vWpSwZdvR6IZSKNGeQASVkV5n3SjFWydRJWVlLIf/eTOYrzLWSiBGkxkakwBw==",
+  "dgSpecHash": "k7833o5LsdOgA2fku3NKgwMFXKCmZl3g++SoT3TJqCu2MvxI/inzaBJ9UY4BCAe6L6dFMf38TjVSVU09nDpbYg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\OMaievskyi\\source\\repos\\TDDKata\\TDDKata\\TDDKata.csproj",
+  "projectFilePath": "C:\\Users\\OMaievskyi\\Source\\Repos\\tdd-8-17-may-OleksiiM88\\TDDKata\\TDDKata.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\OMaievskyi\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\OMaievskyi\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",
