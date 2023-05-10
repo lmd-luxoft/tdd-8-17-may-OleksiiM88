@@ -1,0 +1,12 @@
+C:\Users\OMaievskyi\source\repos\TDDKata\TDDKataCalc\bin\Debug\net7.0\TDDKataCalc.deps.json
+C:\Users\OMaievskyi\source\repos\TDDKata\TDDKataCalc\bin\Debug\net7.0\TDDKataCalc.dll
+C:\Users\OMaievskyi\source\repos\TDDKata\TDDKataCalc\bin\Debug\net7.0\TDDKataCalc.pdb
+C:\Users\OMaievskyi\source\repos\TDDKata\TDDKataCalc\obj\Debug\net7.0\TDDKataCalc.csproj.AssemblyReference.cache
+C:\Users\OMaievskyi\source\repos\TDDKata\TDDKataCalc\obj\Debug\net7.0\TDDKataCalc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OMaievskyi\source\repos\TDDKata\TDDKataCalc\obj\Debug\net7.0\TDDKataCalc.AssemblyInfoInputs.cache
+C:\Users\OMaievskyi\source\repos\TDDKata\TDDKataCalc\obj\Debug\net7.0\TDDKataCalc.AssemblyInfo.cs
+C:\Users\OMaievskyi\source\repos\TDDKata\TDDKataCalc\obj\Debug\net7.0\TDDKataCalc.csproj.CoreCompileInputs.cache
+C:\Users\OMaievskyi\source\repos\TDDKata\TDDKataCalc\obj\Debug\net7.0\TDDKataCalc.dll
+C:\Users\OMaievskyi\source\repos\TDDKata\TDDKataCalc\obj\Debug\net7.0\refint\TDDKataCalc.dll
+C:\Users\OMaievskyi\source\repos\TDDKata\TDDKataCalc\obj\Debug\net7.0\TDDKataCalc.pdb
+C:\Users\OMaievskyi\source\repos\TDDKata\TDDKataCalc\obj\Debug\net7.0\ref\TDDKataCalc.dll
