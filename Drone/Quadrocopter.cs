@@ -18,5 +18,10 @@ namespace Drone
 			_gpsModule = gpsModule;
 			_flyController = flyController;
 		}
+
+		public void TakeOff()
+		{
+			throw new NotImplementedException();
+		}
 	}
 }
