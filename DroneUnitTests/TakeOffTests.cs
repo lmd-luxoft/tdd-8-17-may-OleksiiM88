@@ -35,7 +35,6 @@ namespace DroneUnitTests
 
 		public void Dispose()
 		{
-
 			//TODO as TearDown!
 		}
 	}
