@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Drone
+﻿namespace Drone
 {
 	public class Compass
 	{
+		public virtual bool IsCalibration() => throw new NotImplementedException();
+		public virtual void HorizontalCalibration () => throw new NotImplementedException();
+		public virtual void VerticalCalibration () => throw new NotImplementedException();
 	}
 }
