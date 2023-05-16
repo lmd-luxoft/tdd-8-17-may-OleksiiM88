@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TaskManagementService.BL.Interfaces
 {
-	internal interface IBusinessLogic
+	public interface IBusinessLogic
 	{
 	}
 }

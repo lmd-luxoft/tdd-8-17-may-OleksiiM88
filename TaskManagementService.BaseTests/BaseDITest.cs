@@ -1,4 +1,4 @@
-
+using System;
 
 namespace TaskManagementService.BaseTests
 {
@@ -13,7 +13,9 @@ namespace TaskManagementService.BaseTests
 		{
 			_serviceCollection = new ServiceCollection();
 			Configure(_serviceCollection);
-			_serviceProvider = _serviceCollection.
+			_serviceProvider = _serviceCollection.BuildServiceProvider();
 		}
+
+		public T GetService<T>() => _serviceProvider.GetService<T>();
 	}
 }

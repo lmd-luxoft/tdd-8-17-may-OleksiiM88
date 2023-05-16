@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TaskManagementService.BL.Interfaces\TaskManagementService.BL.Interfaces.csproj" />
+  </ItemGroup>
+
 </Project>
