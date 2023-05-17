@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace TaskManagementService.BL.Interfaces.Exceptions
 {
-	internal class UserTaskException
+	public class UserTaskException : Exception
 	{
+		public UserTaskException(string message, Exception e) : base(message,e) { }
 	}
 }

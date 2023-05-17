@@ -1,12 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Moq;
+using TaskManagementService.DA.Interfaces;
+using TaskManagementService.DA.Interfaces.DTO;
 
 namespace TaskManagementService.UT.Fakes
 {
-	public class FakeDataAccess
+	public class FakeDataAccess : IDataAccess
 	{
+		public readonly Mock<IDataAccess> _mock = new Mock<IDataAccess>();
+		public DataTask[] GetTasks(int userId)
+		{
+			return _mock.Object.GetTasks(userId);
+		}
 	}
 }

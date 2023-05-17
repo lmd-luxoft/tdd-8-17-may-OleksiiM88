@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TaskManagementService.BL.Interfaces\TaskManagementService.BL.Interfaces.csproj" />
+    <ProjectReference Include="..\TaskManagementService.DA.Interfaces\TaskManagementService.DA.Interfaces.csproj" />
   </ItemGroup>
 
 </Project>
